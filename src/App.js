@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Inicio from './inicio';
 import Registro from './registro';
@@ -14,7 +14,7 @@ import PanelDocente from './panel docente';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/registro" element={<Registro />} />
@@ -27,6 +27,6 @@ export default function App() {
         <Route path="/panel-alumno" element={<PanelAlumno />} />
         <Route path="/panel-docente" element={<PanelDocente />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
