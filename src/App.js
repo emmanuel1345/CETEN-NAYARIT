@@ -1,25 +1,32 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
+import Inicio from './inicio';
+import Registro from './registro';
+import Paramedico from './paramedico';
+import Enfermeria from './enfermeria';
+import Podologia from './podologia';
+import AsistenteEducativo from './asistente educativo';
+import Belleza from './belleza';
+import Login from './login';
+import PanelAlumno from './panel alumno';
+import PanelDocente from './panel docente';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Inicio />} />
+        <Route path="/registro" element={<Registro />} />
+        <Route path="/paramedico" element={<Paramedico />} />
+        <Route path="/enfermeria" element={<Enfermeria />} />
+        <Route path="/podologia" element={<Podologia />} />
+        <Route path="/asistente-educativo" element={<AsistenteEducativo />} />
+        <Route path="/belleza" element={<Belleza />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/panel-alumno" element={<PanelAlumno />} />
+        <Route path="/panel-docente" element={<PanelDocente />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
-
-export default App;
