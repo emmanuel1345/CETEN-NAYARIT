@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CETEN-NAYARIT/static/css/main.e5d0c392.css",
-    "main.js": "/CETEN-NAYARIT/static/js/main.b0eb4685.js",
+    "main.js": "/CETEN-NAYARIT/static/js/main.87096120.js",
     "static/js/453.74e89ec8.chunk.js": "/CETEN-NAYARIT/static/js/453.74e89ec8.chunk.js",
     "static/media/logo.png": "/CETEN-NAYARIT/static/media/logo.78e63e6cfcfe4c5180db.png",
     "static/media/asistente educativo.png": "/CETEN-NAYARIT/static/media/asistente educativo.78c7953b08c87fd70b9d.png",
@@ -11,11 +11,11 @@
     "static/media/podologia.png": "/CETEN-NAYARIT/static/media/podologia.1864cb704255f91bc8c9.png",
     "index.html": "/CETEN-NAYARIT/index.html",
     "main.e5d0c392.css.map": "/CETEN-NAYARIT/static/css/main.e5d0c392.css.map",
-    "main.b0eb4685.js.map": "/CETEN-NAYARIT/static/js/main.b0eb4685.js.map",
+    "main.87096120.js.map": "/CETEN-NAYARIT/static/js/main.87096120.js.map",
     "453.74e89ec8.chunk.js.map": "/CETEN-NAYARIT/static/js/453.74e89ec8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5d0c392.css",
-    "static/js/main.b0eb4685.js"
+    "static/js/main.87096120.js"
   ]
 }
